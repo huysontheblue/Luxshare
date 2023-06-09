@@ -1,0 +1,33 @@
+td {
+    padding-right: 30px;
+    color: black;
+}
+
+tr td {
+    padding-top: 15px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    border-radius: 0;
+    box-shadow: none;
+    height: 45px;
+    &:hover {
+        box-shadow: none;
+    }
+    &.active,
+    &:focus {
+        box-shadow: none;
+    }
+}
+
+.col-form-label {
+    padding-left: 30px;
+}
+
+.h {
+    width: 125px;
+}
